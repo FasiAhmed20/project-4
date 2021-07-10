@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.parent {
+  display: flex;
+  width: 100%;
+}
+.top {
+  padding: 1em 11em;
+  width: 60%;
+  background-image: url("./bg-pattern-desktop.svg");
+}
+.logo {
+  margin: 3em 0em;
+}
+
+.third {
+  color: rgba(200, 152, 155, 255);
+  font-weight: 200;
+  font-size: 60px;
+  margin-top: 30px;
+}
+
+.second {
+  font-size: 50px;
+  padding: 1px 0px 10px;
+  font-weight: 400;
+}
+.fourth p {
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(201, 158, 164, 255);
+  padding: 6px 1px 5px 1px;
+  line-height: 30px;
+}
+.fifth {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.fifth input {
+  width: 90%;
+  color: rgba(236, 218, 218, 255);
+  background-color: rgba(255, 247, 248, 255);
+  padding: 20px 200px 20px 20px;
+  border-radius: 30px;
+  border: 1px solid lightgray;
+}
+
+.fifth button {
+  width: 10%;
+  border-radius: 30px;
+  padding: 16px 50px;
+  margin-left: -3.5em;
+  background-color: rgba(245, 161, 167, 255);
+  border: 1px solid lightgray;
+  box-shadow: rgba(243, 219, 219, 255);
+}
+.image {
+  width: 40%;
+}
+.third span {
+  color: black;
+  font-weight: 600;
+}
